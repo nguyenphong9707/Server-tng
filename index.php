@@ -1,8 +1,13 @@
-<?php 
-    $a=1; 
-    $b=2;
-    
-    setInterval(function() use($a, $b) {
-        echo 'a='.$a.'; $b='.$b."\n";
-    }, 1000);
-?>
+
+<script>
+
+    function sendGmail() {
+        var date = new Date();
+        if(date)
+        console.log(date)
+    }
+
+    setInterval(sendGmail,2000);
+
+
+</script>
